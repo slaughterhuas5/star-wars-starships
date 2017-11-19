@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+</head>
+<body>
+	<h1>Select two Starships fromm the dropdown lists to compare</h1>
+	<select id='optionOne' data='foo'>
+		<option data="2">CR90 Corvette</option>
+		<option data='75'>V-Wing</option>
+		<option data='74'>Belbullab-22 Starfighter</option>
+		<option data='65'>Jedi Interceptor</option>
+		<option data='3'>Star Destroyer</option>
+		<option data='59'>Trade Federation Cruiser</option>
+		<option data='58'>Solar Sailor</option>
+		<option data='63'>Republic Attack Cruiser</option>
+		<option data='28'>A-Wing</option>
+		<option data='29'>B-Wing</option>
+		<option data='39'>Naboo Fighter</option>
+		<option data='10'>Millenium Falcon</option>
+	</select>
+
+	<select id="optionTwo">
+		<option data="2">CR90 Corvette</option>
+		<option data='75'>V-Wing</option>
+		<option data='74'>Belbullab-22 Starfighter</option>
+		<option data='65'>Jedi Interceptor</option>
+		<option data='3'>Star Destroyer</option>
+		<option data='59'>Trade Federation Cruiser</option>
+		<option data='58'>Solar Sailor</option>
+		<option data='63'>Republic Attack Cruiser</option>
+		<option data='28'>A-Wing</option>
+		<option data='29'>B-Wing</option>
+		<option data='39'>Naboo Fighter</option>
+		<option data='10'>Millenium Falcon</option>
+	</select>
+
+	<button id="compare">Compare</button>
+
+
+	<table id="table" width="650px" border="1">
+            <tr>
+                <th></th>
+                <th>Starship One</th>
+                <th>Starship Two</th>
+            </tr>
+             <tr>
+                <td>Name</td>
+                <td id="name1"></td>
+                <td id="name2"></td>
+            </tr>
+             <tr>
+                <td>Cost</td>
+                <td id="cost1"></td>
+                <td id="cost2"></td>
+            </tr>
+            <tr>
+            	<td>Speed</td>
+            	<td id='speed1'></td>
+            	<td id='speed2'></td>
+            </tr>
+            <tr>
+            	<td>Cargo Size</td>
+            	<td id="cargo1"></td>
+            	<td id="cargo1"></td>
+            </tr>
+            <tr>
+            	<td>Passengers</td>
+            	<td id="passengers1"></td>
+            	<td id="passengers2"></td>
+            </tr>
+        </table>
+
+
+	<script src="starships.js"></script>
+</body>
+</html>
